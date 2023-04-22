@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="author" content="DinoWorks Inc. 디노웍스(주)">
+  <meta name="apple-mobile-web-app-title" content="SELECTO COFFEE">
+  <title>SELECTO COFFEE</title>
+  <meta name="description" content="카페 창업, 반값창업 행사중, 인테리어 비용 할인혜택, 입맛에 따라 즐기는 5가지 아메리카노">
+  <link rel="stylesheet prefetch"
+    href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="./css/web-font.css" type="text/css">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+
+  <link rel="stylesheet" href="./css/style.css" type="text/css" media="all and (min-width: 1023.9px)">
+  <link rel="stylesheet" href="./css/style-tablet.css" type="text/css" media="(min-width: 549.9px) and (max-width: 1023.9px)">
+  <link rel="stylesheet" href="./css/style-mobile.css" type="text/css" media="all and (max-width: 549.9px)">
+
+  <script src="./lib/jquery/jquery-3.6.1.min.js"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/wow.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js" ></script>
+</head>
+
+<body class="main">
+
+  <div id="wrapper">
+    <a href="#main" id="skip-nav">본문 바로가기</a>
+
+    <header id="header">
+      <div class="header_inner">
+        <h1 id="ir-hidden"><a href="./index.html"><img src="./images/logo.png" alt="SELECTO COFFEE LOGO"></a></h1>
+        <div class="ico menu-burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <nav id="nav">
+          <div class="gnb">
+            <ul>
+              <li data-menu="brand">
+                <a href="#">셀렉토커피</a>
+                <ul>
+                  <li data-menu="story"><a href="brand_story.html">브랜드 스토리</a></li>
+                  <li data-menu="history"><a href="#">HISTORY</a></li>
+                  <li data-menu="competitivity"><a href="#">경쟁력</a></li>
+                  <li data-menu="oneforone"><a href="#">ONE FOR ONE</a></li>
+                </ul>
+              </li>
+
+              <li data-menu="menu">
+                <a href="#">메뉴</a>
+                <ul>
+                  <li data-menu="signature"><a href="menu_main.html">Signature</a></li>
+                  <li data-menu="coffee"><a href="#">Coffee</a></li>
+                  <li data-menu="cookies"><a href="#">Cookies</a></li>
+                  <li data-menu="beverage"><a href="#">Beverage</a></li>
+                  <li data-menu="dessert"><a href="#">Deli&Dessert</a></li>
+                  <li data-menu="md"><a href="#">MD</a></li>
+                </ul>
+              </li>
+              <li data-menu="store">
+                <a href="#">매장안내</a>
+                <ul>
+                  <li data-menu="store_search"><a href="store_search.html">매장찾기</a></li>
+                  <li data-menu="store_scheduled"><a href="#">오픈 예정 매장</a></li>
+                </ul>
+              </li>
+              <li data-menu="whatsnew">
+                <a href="#">WHAT'S NEW</a>
+                <ul>
+                  <li data-menu="news"><a href="whatsnew_news.html">새로운 소식</a></li>
+                  <li data-menu="report"><a href="#">보도자료</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div class="tablet top_menu">
+                  <span><a href="#"><img src="./images/h-link-naver.svg" alt="네이버"></a></span>
+                  <span><a href="#"><img src="./images/h-link-youtube.svg" alt="유튜브"></a></span>
+                  <span><a href="#"><img src="./images/h-link-instagram.svg" alt="인스타그램"></a></span>
+                  <p class="link_founded"><a href="#">창업안내</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="pc top_menu">
+          <span class="link_founded"><a href="#">창업안내</a></span>
+          <span><a href="#"><img src="./images/h-link-naver.svg" alt="네이버"></a></span>
+          <span><a href="#"><img src="./images/h-link-youtube.svg" alt="유튜브"></a></span>
+          <span><a href="#"><img src="./images/h-link-instagram.svg" alt="인스타그램"></a></span>
+        </div>
+      </div>
+      <div class="tablet menu_dim"></div> <!-- mobile menu background dim -->
+    </header>
+
+    <main id="main">
+
+      <section id="image_slide_wrap">
+        <h3 class="ir-hidden">메인 비주얼</h3>
+        <div class="image-slide">
+          <div class="box">
+            <div class="scroll_img">
+              <span>scroll</span>
+            </div>
+            <div class="scroll_line"></div>
+            <p class="dummy">
+              <img class="pc" alt="메인배너이미지영역" src="./images/20220926134050_tnadwv.jpg">
+              <img class="mobile" alt="메인배너이미지영역" src="./images/m-mainslide01.jpg">
+            </p>
+
+            <ul class="slide">
+              <li class="on">
+                <a href="#" class="pc"><img alt="봄바람에 태어난 딸기 한 잔" src="./images/20230206105426_xyc92t.jpg" /></a>
+                <a href="#" class="mobile"><img alt="봄바람에 태어난 딸기 한 잔" src="./images/m-mainslide001.jpg" /></a>
+              </li>
+              <li>
+                <a href="#" class="pc"><img alt="선라이즈 무드 아메리카노" src="./images/20220926134050_tnadwv.jpg" /></a>
+                <a href="#" class="mobile"><img alt="선라이즈 무드 아메리카노" src="./images/m-mainslide02.jpg" /></a>
+              </li>
+              <li>
+                <a href="#" class="pc"><img alt="하모니 가든 아메리카노" src="./images/20220927120542_4bli9f.jpg" /></a>
+                <a href="#" class="mobile"><img alt="하모니 가든 아메리카노" src="./images/m-mainslide03.jpg" /></a>
+              </li>
+              <li>
+                <a href="#" class="pc"><img alt="티라미수 쿠키" src="./images/20220926135834_w6aozi.jpg" /></a>
+                <a href="#" class="mobile"><img alt="티라미수 쿠키" src="./images/m-mainslide04.jpg" /></a>
+              </li>
+            </ul>
+          </div>
+          <ul class="indicator mobile"></ul>
+        </div>
+
+      </section>
+
+      <section id="category">
+        <ul class="menu-big">
+          <li class="on"><img src="./images/menu/c-signature-item-00.png" alt="시그니처커피 대표이미지"></li>
+          <li><img src="./images/menu/c-beverage-item-00.png" alt="음료 대표이미지"></li> 
+          <li><img src="./images/menu/c-coffee-item-00.png" alt="커피 대표이미지"></li> 
+          <li><img src="./images/menu/c-cookie-item-00.png" alt="쿠키 대표이미지"></li> 
+        </ul>
+        <div class="category_menu">
+          <div class="menu_btn">
+            <p>SELECTO MENU</p>
+            <ul> 
+              <li class="on">
+                <a href="#">SIGNATURE</a>
+              </li>
+              <li><a href="#">BEVERAGE</a></li>
+              <li><a href="#">COFFEE</a></li>
+              <li><a href="#">COOKIE</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="category_list">
+          <ul>
+            <li class="on">
+              <div class="list_cont">
+                <div class="item_title">
+                  <p>signature</p>
+                  <span>셀렉토 감성과 재미를 듬뿍 담아 낸, 셀렉토에서<br>
+                    맛볼 수 있는 시그니처 음료
+                  </span>
+                </div>
+                <div class="item_list">
+                  <div class="item_img">
+                    <div class="item_img"><img src="./images/menu/c-signature-item-01.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-signature-item-02-1.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-signature-item-03-1.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="item_recomm">
+                  <p>추천 토핑류</p>
+                  <div class="recomm_topping">
+                    <ul class="topping">
+                      <li>
+                        <img src="./images/menu/c-topping-01.png" alt=""><span>시럽_바닐라빈</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-02.png" alt=""><span>시럽_카라멜</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-03.png" alt=""><span>우유_오트밀</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-04.png" alt=""><span>크림_흑임자</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li>
+              <div class="list_cont">
+                <div class="item_title">
+                  <p>BEVERAGE</p>
+                  <span>고객의 라이프 스타일에 맞춰 더욱 다양하게 즐길<br>
+                    수 있는 셀렉토의 음료 라인업!
+                  </span>
+                </div>
+                <div class="item_list">
+                  <div class="item_img">
+                    <div class="item_img"><img src="./images/menu/c-beverage-item-01.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-beverage-item-02.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-beverage-item-03.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="item_recomm">
+                  <p>추천 토핑류</p>
+                  <div class="recomm_topping">
+                    <ul class="topping">
+                      <li>
+                        <img src="./images/menu/c-topping-02.png" alt=""><span>시럽_카라멜</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-03.png" alt=""><span>우유_오트밀</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-04.png" alt=""><span>크림_흑임자</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li>
+              <div class="list_cont">
+                <div class="item_title">
+                  <p>COFFEE</p>
+                  <span>셀렉토는 품질 좋은 원두를 선별해, 최적의 로스팅 포인트로<br>
+                    더욱 섬세하게 균형잡힌 풍미의 커피를 고객에게 선사합니다.
+                  </span>
+                </div>
+                <div class="item_list">
+                  <div class="item_img">
+                    <div class="item_img"><img src="./images/menu/c-coffee-item-01.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-coffee-item-02.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-coffee-item-03.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="item_recomm">
+                  <p>추천 토핑류</p>
+                  <div class="recomm_topping">
+                    <ul class="topping">
+                      <li>
+                        <img src="./images/menu/c-topping-03.png" alt=""><span>우유_오트밀</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-04.png" alt=""><span>크림_흑임자</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li>
+              <div class="list_cont">
+                <div class="item_title">
+                  <p>COOKIE</p>
+                  <span>남녀노소, 어디서나 맛있게! 셀렉토 시그니처 수제 쿠키</span>
+                </div>
+                <div class="item_list">
+                  <div class="item_img">
+                    <div class="item_img"><img src="./images/menu/c-cookie-item-01.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-cookie-item-02.png" alt=""></div>
+                    <div class="item_img"><img src="./images/menu/c-cookie-item-03.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="item_recomm">
+                  <p>추천 토핑류</p>
+                  <div class="recomm_topping">
+                    <ul class="topping">
+                      <li>
+                        <img src="./images/menu/c-topping-01.png" alt=""><span>시럽_바닐라빈</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-02.png" alt=""><span>시럽_카라멜</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-03.png" alt=""><span>우유_오트밀</span>
+                      </li>
+                      <li>
+                        <img src="./images/menu/c-topping-04.png" alt=""><span>크림_흑임자</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="identity_wrap">
+        <div class="identity_text"><img src="./images/m-3rd_sec-header.svg" alt=""></div>
+        <div><img src="./images/m-3rd_sec-bg.png" alt=""></div>
+        <div class="marquee_wrap">
+          <div class="marquee_slide marquee_ani">
+            <div class="marquee_box">
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+            </div>
+            <div class="marquee_box">
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+              <div class="marquee_cont">
+                <img src="./images/m-3rd_sec-marquee.svg" alt="">
+                매장에서 직접 구워 맛있는 셀렉토 쿠키
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="give_wrap">
+        <div class="give_left">
+          <p>셀렉토 커피에서 커피와 <br> 기부를 함께 즐기세요!</p>
+          <p class="mobile">셀렉토 커피에서<br>커피와 기부를 함께<br>즐기세요!</p>
+          <span class="mn">매일 마시는 커피 한 잔을 '마시기만 해도 기부'가 되는 곳이 있습니다.<br />
+            셀렉토커피에서는 SELECTO'S PICK을 마시기만 해도<br class="only-t" />결식아동에게 '우유 1팩'이 기부됩니다.</span>
+          <span class="mobile">매일 마시는 커피 한 잔을 '마시기만 해도 기부'가 되는<br /> 곳이 있습니다.
+            셀렉토커피에서는 SELECTO'S PICK을<br /> 마시기만 해도결식아동에게 '우유 1팩'이 기부됩니다.</span>
+          <div class="give_count">
+            <p>결식아동에게 기부된 우유</p>
+            <p id="counter" class="give_num">296,454</p>
+            <span>2023.03.01일 기준</span>
+          </div>
+          <a href="#" class="button">자세히보기</a>
+        </div>
+        <div class="give_right">
+          <div class="">
+            <div class="circle_line"></div>
+            <div class="circle_img_small"></div>
+            <div class="circle_img_big"></div>
+            <div class="circle_img_dot"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news_wrap">
+        <div class="news_inner">
+          <div class="news_left">
+            <p>NEWS &<br > EVENTS</p>
+            <p class="mobile">NEWS & EVENTS</p>
+            <div class="circle">
+              <a href="./page/whatsnew_news.html"><img src="images/m-circle-txt.png" alt=""></a>
+              
+            </div>
+          </div>
+          <div class="news_right">
+            <div class="list_cont">
+              <div class="list_cont_info">
+                <div class="type">EVENT</div>
+                <div class="title">[제작지원] JTBC 드라마 '신성한, 이혼' 제작지원</div>
+                <div class="date">2023/03/04 ~ 2023/04/09</div>
+              </div>
+              <div class="list_cont_img"><img src="images/sub/20230306122858_6lf3bx.png" alt=""></div>
+              <div class="list_cont_arrow"><img src="images/m-arrow.png" alt=""></div>
+            </div>
+            <div class="list_cont">
+              <div class="list_cont_info">
+                <div class="type">EVENT</div>
+                <div class="title">[NEW MENU] Born in spring wish</div>
+                <div class="date">2023/02/06 ~ 2023/04/30</div>
+              </div>
+              <div class="list_cont_img"><img src="images/20230206161030_4cb2g4.jpg" alt=""></div>
+              <div class="list_cont_arrow"><img src="images/m-arrow.png" alt=""></div>
+            </div>
+            <div class="list_cont">
+              <div class="list_cont_info">
+                <div class="type">EVENT</div>
+                <div class="title">[NEW VIDEO] Why is SELECTO special?</div>
+                <div class="date">2022/10/18 ~ 2024/10/18</div>
+              </div>
+              <div class="list_cont_img"><img src="images/20221020170125_nr4chj.png" alt=""></div>
+              <div class="list_cont_arrow"><img src="images/m-arrow.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sns_wrap">
+        <div class="sns_title">
+          <img src="./images/m-6th_sec-header_icon.svg" alt="">
+          <span>selecto_coffee</span>
+        </div>
+        <div class="sns_img">
+          <div class="sns_img_inner">
+            <img src="./images/sns01.jpg" alt="sns-img">
+            <img src="./images/sns02.jpg" alt="sns-img">
+            <img src="./images/sns03.jpg" alt="sns-img">
+          </div>
+        </div>
+      </section>
+
+    </main>
+    
+    <footer>
+      <section id="totop">
+        <a href="#">
+          <div class="totop">
+              <img src="./images/f-totop__arrow.png" alt="맨위로가기">
+          </div>
+          <span>TOP</span>
+        </a>
+      </section>
+
+      <div id="footer">
+        <img src="./images/logo-white.svg" alt="셀렉토커피 로고">
+        <div class="sns_logo">
+          <img src="./images/f-link-n.svg" alt="셀렉토커피 네이버블로그">
+          <img src="./images/f-link-y.svg" alt="셀렉토커피 유튜브">
+          <img src="./images/f-link-i.svg" alt="셀렉토커피 페이스북">
+        </div>
+        <p class="person">개인정보취급방침</p>
+        <div class="footer_info">
+          <span>주소 : 서울시 구로구 구로3동 222-14 에이스하이엔드타워 2차 1402호<br class="only-m" /> </span>
+          <span>도로명주소 : 서울시 구로구 디지털로26길 61 에이스하이엔드타워 2차 1402호</span>
+          <div>
+            <span>대표이사 : 황규연</span>
+            <span>사업자등록번호 : 109-81-99153<br class="only-m" /></span>
+            <span>전화 : 1600-5649</span>
+            <span>팩스 : 02-6340-1701</span>
+          </div>
+        </div>
+        <p class="copyright">COPYRIGHT (주)맥스원이링크 ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script>
+    'use strict';
+
+    window.addEventListener('load', function() {
+      preventDefault();
+
+    }, false);
+
+    function preventDefault() {
+      const links = document.querySelectorAll('a[href="#"]');
+      links.forEach(function(element) {
+        element.addEventListener('click', function(e) {
+          e.preventDefault();
+        }, false);
+      });
+    }
+
+    // 대메뉴
+    $('#header div.header_inner div.gnb > ul li').mouseenter(function() {
+      $('#header div.header_inner div.gnb > ul li').siblings('.on').removeClass('on');
+      $('#header div.header_inner div.gnb > ul li').addClass('on');
+      $('div.header_inner').addClass('item_active');
+    });
+
+    $('#header div.header_inner div.gnb').mouseleave(function() {
+      $('#header div.header_inner div.gnb > ul li.on').removeClass('on');
+      $('div.header_inner').removeClass('item_active');
+    });
+
+
+    // 모바일 대메뉴
+    $('.menu-burger').click(function () {
+      var $click_icon = $(this);
+      var nowAnimating = $click_icon.attr('data-ico-now-animating');
+
+      if (nowAnimating == 'Y') {
+          return;
+      }
+
+      if ($click_icon.hasClass('active')) {
+          hideRightSideBar();
+      } else {
+          showRightSideBar();
+      }
+
+      $click_icon.toggleClass('active');
+      $click_icon.attr('data-ico-now-animating', 'Y');
+
+      setTimeout(function () {
+          $click_icon.attr('data-ico-now-animating', 'N');
+      }, 300);
+    });         
+
+    function hideRightSideBar() {
+      $('#nav').removeClass('active');
+      $('.menu_dim').hide();
+      $('body.main').css({'overflow-y': 'scroll'});
+    }
+
+    function showRightSideBar() {
+      $('#nav').addClass('active');
+      $('.menu_dim').show();
+      $('body.main').css({'overflow': 'hidden'});
+    }
+
+    $('#nav .gnb ul > li').click(function (e) {
+      var $clicked = $(this);
+
+      if ($clicked.hasClass('active')) {
+          $clicked.removeClass('active');
+      } else {
+          $clicked.addClass('active');
+      }
+
+      e.stopPropagation();
+    });
+
+
+        
+    // 메인배너
+    
+    setImageSlide('div.image-slide:eq(0)', 1, true, 3000);
+
+    function setImageSlide(selector, first, status, speed) {
+      const $selector = $(selector);
+      let numSlide = $selector.find('ul.slide > li').length;
+      let slideNow = 0;
+      let slidePrev = 0;
+      let slideNext = 0;
+      let slideFirst = first;
+      let timerId = '';
+      let timerSpeed = speed;
+      let isTimerOn = status;
+
+      contruct();
+
+      function contruct() {
+        setInitial();
+        showSlide(slideFirst);
+        setEvent();
+      }
+
+      function setInitial() {
+        $selector.find('ul.slide > li').each(function(i) {
+          $(this).css({'left': (i * 100) + '%'}).addClass('on');
+          $selector.find('ul.indicator').append('<li><a href="#">' + (i + 1) + '번 슬라이드</a></li>\n');
+        });
+        if (isTimerOn === true) {
+          $selector.find('p.control a.play').addClass('on');
+        } else {
+          $selector.find('p.control a.play').removeClass('on');
+        }
+        $selector.find('.bar').css({'animation-duration': (timerSpeed - 50) + 'ms'});
+      }
+
+      function setEvent() {
+        $selector.find('ul.indicator > li > a').on('click', function() {
+          let index = $selector.find('ul.indicator > li').index($(this).parent());
+          showSlide(index + 1);
+        });
+
+        $selector.find('p.control a.prev').on('click', function() {
+          showSlide(slidePrev);
+        });
+
+        $selector.find('p.control a.next').on('click', function() {
+          showSlide(slideNext);
+        });
+
+        $selector.find('p.control a.play').on('click', function() {
+          if (isTimerOn === true) {
+            stopTimer();
+          } else {
+            startTimer();
+          }
+        });
+      }
+
+      function startTimer() {
+        timerId = setTimeout(function() {showSlide(slideNext);}, timerSpeed);
+        $selector.find('p.control a.play').addClass('on');
+        $selector.find('.bar').addClass('on');
+        isTimerOn = true;
+      }
+
+      function stopTimer() {
+        clearTimeout(timerId);
+        $selector.find('p.control a.play').removeClass('on');
+        $selector.find('.bar').removeClass('on');
+        isTimerOn = false;
+      }
+
+      function restartTimer() {
+        clearTimeout(timerId);
+        $selector.find('.bar').removeClass('on');
+        timerId = setTimeout(function() {showSlide(slideNext);}, timerSpeed);
+        setTimeout(function() {$selector.find('.bar').addClass('on');}, 50);
+      }
+
+      function showSlide(n) {
+        if (slideNow === 0) {    // 첫 동작
+          $selector.find('ul.slide').css({'transition': 'none', 'left': -((n - 1) * 100) + '%'});
+        } else {
+          $selector.find('ul.slide').css({'transition': 'left 0.3s', 'left': -((n - 1) * 100) + '%'});
+        }
+        $selector.find('ul.indicator > li').removeClass('on');
+        $selector.find('ul.indicator > li:eq(' + (n - 1) + ')').addClass('on');
+        slideNow = n;
+        slidePrev = (n === 1) ? numSlide : (n - 1);
+        slideNext = (n === numSlide) ? 1 : (n + 1);
+        // console.log(slidePrev + ' / ' + slideNow + ' / ' + slideNext);
+        if (isTimerOn === true) restartTimer();
+      }
+    }
+
+
+    // 메뉴소개
+    $('.menu_btn > ul > li > a').on('click', function() {
+      let index = $(this).parent().index() + 1;
+      console.log(index); //디버깅용코드
+
+      //붙어있던 class를 미리 떼어놓는 코드
+      $('.menu_btn > ul > li').removeClass('on');
+      $('.menu-big > li').removeClass('on');
+      $('.category_list > ul > li').removeClass('on');
+
+      //class를 붙이는 코드
+      $(this).parent().addClass('on');
+      $('.menu_btn > ul > li:nth-child('+ index +')').addClass('on');
+      $('.menu-big > li:nth-child('+ index +')').addClass('on');
+      $('.category_list > ul > li:nth-child('+ index +')').addClass('on');
+    });
+
+
+    // 숫자카운터
+    var countOptions = {
+      useEasing: true , // 자연스러운 애니메이션 (false:처음부터 끝까지 동일한 속도)
+      separator: ",", // 분할자 (3자리씩)
+      decimal: ".", // 소수점 나타내는 기호
+      prefix: " " , // 앞에 표시될 텍스트
+      suffix: " "  // 뒤에 표시될 텍스트
+    };
+
+
+    var countUp2 = new CountUp("counter", 0, 296454, 0 , 1, countOptions);
+    //new CountUp('id', 시작하는 숫자, 마지막 숫자, 소숫점 자리수, 실행되는 시간, countOptions);  
+
+    $(window).scroll(function(){
+      var $win = $(this);
+      var $scrollTop = $win.scrollTop();
+      if($scrollTop >= 2700){
+        countUp2.start();
+      } else if ($scrollTop < 2700){
+        return;
+      }
+    });
+
+
+
+    // 카운터 옆 원이미지전환
+    $(document).ready(function(){
+      var roll = 1;
+      setInterval(function() {
+        roll++;
+        if(roll>3) {roll = 2;}
+        $('#roll_small').attr('src','./images/m-4th_sec-con_' + roll + '.png');
+        // $(this).css({'transition': 'all 0.3s'});
+      }, 2000);
+    });
+
+
+    // 맨위로가기 버튼
+    const btnTop = document.querySelector('#totop');
+    btnTop.addEventListener('click', function() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }, false);
+
+  </script>
+
+</body>
+
+</html>

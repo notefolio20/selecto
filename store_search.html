@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="author" content="DinoWorks Inc. 디노웍스(주)">
+  <meta name="apple-mobile-web-app-title" content="SELECTO COFFEE">
+  <title>SELECTO COFFEE</title>
+  <meta name="description" content="카페 창업, 반값창업 행사중, 인테리어 비용 할인혜택, 입맛에 따라 즐기는 5가지 아메리카노">
+  <link rel="stylesheet prefetch"
+    href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="./css/web-font.css" type="text/css">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css" type="text/css" media="all and (min-width: 1023.9px)">
+  <link rel="stylesheet" href="./css/style-tablet.css" type="text/css" media="(min-width: 549.9px) and (max-width: 1023.9px)">
+  <link rel="stylesheet" href="./css/style-mobile.css" type="text/css" media="all and (max-width: 549.9px)">
+  <script src="./lib/jquery/jquery-3.6.1.min.js"></script>
+  <script src="./js/dino-common.js"></script>
+  <script src="./js/wow.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js" ></script>
+</head>
+
+<body class="sub store search">
+
+  <div id="wrapper">
+    <a href="#main" id="skip-nav">본문 바로가기</a>
+
+    <header id="header">
+      <div class="header_inner">
+        <h1 id="ir-hidden"><a href="./index.html"><img src="./images/logo.png" alt="SELECTO COFFEE LOGO"></a></h1>
+        <div class="ico menu-burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <nav id="nav">
+          <div class="gnb">
+            <ul>
+              <li data-menu="brand">
+                <a href="#">셀렉토커피</a>
+                <ul>
+                  <li data-menu="story"><a href="brand_story.html">브랜드 스토리</a></li>
+                  <li data-menu="history"><a href="#">HISTORY</a></li>
+                  <li data-menu="competitivity"><a href="#">경쟁력</a></li>
+                  <li data-menu="oneforone"><a href="#">ONE FOR ONE</a></li>
+                </ul>
+              </li>
+
+              <li data-menu="menu">
+                <a href="#">메뉴</a>
+                <ul>
+                  <li data-menu="signature"><a href="menu_main.html">Signature</a></li>
+                  <li data-menu="coffee"><a href="#">Coffee</a></li>
+                  <li data-menu="cookies"><a href="#">Cookies</a></li>
+                  <li data-menu="beverage"><a href="#">Beverage</a></li>
+                  <li data-menu="dessert"><a href="#">Deli&Dessert</a></li>
+                  <li data-menu="md"><a href="#">MD</a></li>
+                </ul>
+              </li>
+              <li data-menu="store">
+                <a href="#">매장안내</a>
+                <ul>
+                  <li data-menu="store_search"><a href="store_search.html">매장찾기</a></li>
+                  <li data-menu="store_scheduled"><a href="#">오픈 예정 매장</a></li>
+                </ul>
+              </li>
+              <li data-menu="whatsnew">
+                <a href="#">WHAT'S NEW</a>
+                <ul>
+                  <li data-menu="news"><a href="whatsnew_news.html">새로운 소식</a></li>
+                  <li data-menu="report"><a href="#">보도자료</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div class="tablet top_menu">
+                  <span><a href="#"><img src="./images/h-link-naver.svg" alt="네이버"></a></span>
+                  <span><a href="#"><img src="./images/h-link-youtube.svg" alt="유튜브"></a></span>
+                  <span><a href="#"><img src="./images/h-link-instagram.svg" alt="인스타그램"></a></span>
+                  <p class="link_founded"><a href="#">창업안내</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="pc top_menu">
+          <span class="link_founded"><a href="#">창업안내</a></span>
+          <span><a href="#"><img src="./images/h-link-naver.svg" alt="네이버"></a></span>
+          <span><a href="#"><img src="./images/h-link-youtube.svg" alt="유튜브"></a></span>
+          <span><a href="#"><img src="./images/h-link-instagram.svg" alt="인스타그램"></a></span>
+        </div>
+      </div>
+      <div class="tablet menu_dim"></div> <!-- mobile menu background dim -->
+    </header>
+
+    <main id="main">
+
+      <section id="sub_menu_head">
+        <h3>매장안내</h3>
+        <div class="menu_tab">
+          <div class="menu_tabin">
+            <a class="on" href="#">매장찾기</a>
+            <a href="#">오픈예정매장</a>
+          </div>
+        </div>
+      </section>
+      <section id="sub_cont">
+        <div class="store_info on">
+          <div class="store_map">
+            <div class="store_map_inner">
+              <div class="map_left">
+                <div class="map_area map-incheon" id="인천">인천</div>
+                <div class="map_area map-seoul" id="">서울</div>
+                <div class="map_area map-kyeonggido" id="">경기도</div>
+                <div class="map_area map-gangwon" id="강원도">강원도</div>
+                <div class="map_area map-chungbuk" id="충북">충북</div>
+                <div class="map_area map-sejong" id="세종">세종</div>
+                <div class="map_area map-chunggnam" id="충남">충남</div>
+                <div class="map_area map-daejeon" id="대전">대전</div>
+                <div class="map_area map-jeonbuk" id="전북">전북</div>
+                <div class="map_area map-jeonnam" id="전남">전남</div>
+                <div class="map_area map-gwangju" id="광주">광주</div>
+                <div class="map_area map-gyeongbuk" id="경북">경북</div>
+                <div class="map_area map-daegu" id="대구">대구</div>
+                <div class="map_area map-ulsan" id="울산">울산</div>
+                <div class="map_area map-gyeongnam" id="경남">경남</div>
+                <div class="map_area map-busan" id="부산">부산</div>
+                <div class="map_area map-jeju" id="제주도">제주도</div>
+              </div>
+            </div>
+            <div class="map_right">
+              <p>01 지역/매장별 검색</p>
+              <div class="box_top01">
+                <p class="ta">지역</p>
+                <div class="search_dropbox">
+                  <select id="city" name="city">
+                    <option value="">도/시 선택</option>
+                    <option value="강원">강원</option>
+                    <option value="경기">경기</option>
+                    <option value="경남">경남</option>
+                    <option value="경북">경북</option>
+                    <option value="광주">광주</option>
+                    <option value="대구">대구</option>
+                    <option value="대전">대전</option>
+                    <option value="부산">부산</option>
+                    <option value="서울">서울</option>
+                    <option value="세종">세종</option>
+                    <option value="울산">울산</option>
+                    <option value="인천">인천</option>
+                    <option value="전북">전북</option>
+                    <option value="제주">제주</option>
+                    <option value="전남">전남</option>
+                    <option value="충남">충남</option>
+                    <option value="충북">충북</option>
+                  </select>
+                </div>
+                <div class="search_dropbox">
+                  <select id="state" name="state">
+                    <option value="">구/군 선택</option>
+                    <option value="강릉시">강릉시</option>
+                    <option value="고성군">고성군</option>
+                    <option value="동해시">동해시</option>
+                    <option value="삼척시">삼척시</option>
+                    <option value="속초시">속초시</option>
+                    <option value="양구군">양구군</option>
+                    <option value="양양군">양양군</option>
+                    <option value="영월군">영월군</option>
+                    <option value="원주시">원주시</option>
+                    <option value="인제군">인제군</option>
+                    <option value="정선군">정선군</option>
+                    <option value="철원군">철원군</option>
+                    <option value="춘천시">춘천시</option>
+                    <option value="태백시">태백시</option>
+                    <option value="평창군">평창군</option>
+                    <option value="홍천군">홍천군</option>
+                    <option value="화천군">화천군</option>
+                    <option value="횡성군">횡성군</option>
+                  </select>
+                </div>
+              </div>
+              <div class="box_top02">
+                <p>매장명</p>
+                <input type="text">
+                <button><img src="./images/sub/c-search-ic.svg" alt="검색"></button>
+              </div>
+
+              <p>02 매장 서비스별 검색</p>
+              <div class="box_bottom">
+                <div>
+                  <input type="checkbox" id="internet">
+                  <label for="internet"><img src="./images/sub/c-wifi-ic.svg" alt="무선인터넷 가능"><span>무선인터넷 가능</span></label>
+                </div>
+                <div>
+                  <input type="checkbox" id="smoking">
+                  <label for="smoking"><img src="./images/sub/c-smoking-ic.svg" alt="흡연시설 보유"><span>흡연시설 보유</span></label>
+                </div>
+                <div>
+                  <input type="checkbox" id="parking">
+                  <label for="parking"><img src="./images/sub/c-parking-ic.svg" alt="주차가능"><span>주차가능</span></label>
+                </div>
+                <div>
+                  <input type="checkbox" id="parasol">
+                  <label for="parasol"><img src="./images/sub/c-parasol-ic.svg" alt="야외테라스 보유"><span>야외테라스 보유</span></label>
+                </div>
+                <div>
+                  <input type="checkbox" id="mobile">
+                  <label for="mobile"><img src="./images/sub/c-mobile-ic.svg" alt="모바일 가맹점"><span>모바일 가맹점</span></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="store_list">
+            <p>매장안내</p>
+            <div class="store_list_inner custom-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>매장명</th>
+                    <th>지역</th>
+                    <th>매장주소</th>
+                    <th>매장전화번호</th>
+                    <th>서비스</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>거제옥포점</td>
+                    <td>경남</td>
+                    <td>경남 거제시 옥포로 203 (옥포동) 1, 2층</td>
+                    <td>055-950-7867</td>
+                    <td><img src="./images/sub/c-wifi-ic-big.svg" alt="무선인터넷 가능"><img src="./images/sub/c-parking-ic-big.svg" alt="주차가능"></td>
+                  </tr>
+                  <tr>
+                    <td>목포하당점</td>
+                    <td>전남</td>
+                    <td>전남 목포시 옥암로 16 (옥암동) 1층</td>
+                    <td>055-950-7867</td>
+                    <td><img src="./images/sub/c-wifi-ic-big.svg" alt="무선인터넷 가능"><img src="./images/sub/c-parking-ic-big.svg" alt="주차가능"></td>
+                  </tr>
+                  <tr>
+                    <td>화성향남점</td>
+                    <td>경기</td>
+                    <td>경기 화성시 향남읍 행정서로3길 4-56 (행정리) 셀렉토커피 화성향남점</td>
+                    <td>031-353-6408</td>
+                    <td><img src="./images/sub/c-wifi-ic-big.svg" alt="무선인터넷 가능"><img src="./images/sub/c-parking-ic-big.svg" alt="주차가능"></td>
+                  </tr>
+                  <tr>
+                    <td>충북대점</td>
+                    <td>충북</td>
+                    <td>충북 청주시 서원구 사직대로 93 (사창동) 1층</td>
+                    <td>043-715-8171</td>
+                    <td><img src="./images/sub/c-wifi-ic-big.svg" alt="무선인터넷 가능"><img src="./images/sub/c-parking-ic-big.svg" alt="주차가능"></td>
+                  </tr>
+                  <tr>
+                    <td>순천기적의도서관길</td>
+                    <td>전남</td>
+                    <td>전남 순천시 해룡면 기적의도서관길 66 (상삼리, 나라문구) 1층</td>
+                    <td>061-724-7117</td>
+                    <td><img src="./images/sub/c-wifi-ic-big.svg" alt="무선인터넷 가능"><img src="./images/sub/c-parking-ic-big.svg" alt="주차가능"><img src="./images/sub/c-parasol-ic-big.svg" alt="야외테라스 보유"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="pagination">
+              <a href="#" class="page_on"><span>1</span></a>
+              <a href="#"><span>2</span></a>
+              <a href="#"><span>3</span></a>
+              <a href="#"><span>4</span></a>
+              <a href="#"><span>5</span></a>
+              <a href="#"><span>&gt;</span></a>
+              <a href="#"><span>47</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="store_comming">
+          <p>오픈 예정 매장이 없습니다!</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <section id="totop">
+        <a href="#">
+          <div class="totop">
+              <img src="./images/f-totop__arrow.png" alt="맨위로가기">
+          </div>
+          <span>TOP</span>
+        </a>
+      </section>
+
+      <div id="footer">
+        <img src="./images/logo-white.svg" alt="셀렉토커피 로고">
+        <div class="sns_logo">
+          <img src="./images/f-link-n.svg" alt="셀렉토커피 네이버블로그">
+          <img src="./images/f-link-y.svg" alt="셀렉토커피 유튜브">
+          <img src="./images/f-link-i.svg" alt="셀렉토커피 페이스북">
+        </div>
+        <p class="person">개인정보취급방침</p>
+        <div class="footer_info">
+          <span>주소 : 서울시 구로구 구로3동 222-14 에이스하이엔드타워 2차 1402호<br class="only-m" /> </span>
+          <span>도로명주소 : 서울시 구로구 디지털로26길 61 에이스하이엔드타워 2차 1402호</span>
+          <div>
+            <span>대표이사 : 황규연</span>
+            <span>사업자등록번호 : 109-81-99153<br class="only-m" /></span>
+            <span>전화 : 1600-5649</span>
+            <span>팩스 : 02-6340-1701</span>
+          </div>
+        </div>
+        <p class="copyright">COPYRIGHT (주)맥스원이링크 ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <script>
+    'use strict';
+
+    window.addEventListener('load', function() {
+      preventDefault();
+
+    }, false);
+
+    function preventDefault() {
+      const links = document.querySelectorAll('a[href="#"]');
+      links.forEach(function(element) {
+        element.addEventListener('click', function(e) {
+          e.preventDefault();
+        }, false);
+      });
+    }
+
+    
+    // 대메뉴
+    $('#header div.header_inner div.gnb > ul li').mouseenter(function() {
+      $('#header div.header_inner div.gnb > ul li').siblings('.on').removeClass('on');
+      $('#header div.header_inner div.gnb > ul li').addClass('on');
+      $('div.header_inner').addClass('item_active');
+    });
+
+    $('#header div.header_inner div.gnb').mouseleave(function() {
+      $('#header div.header_inner div.gnb > ul li.on').removeClass('on');
+      $('div.header_inner').removeClass('item_active');
+    });
+
+
+    // 모바일 대메뉴
+    $('.menu-burger').click(function () {
+      var $click_icon = $(this);
+      var nowAnimating = $click_icon.attr('data-ico-now-animating');
+
+      if (nowAnimating == 'Y') {
+          return;
+      }
+
+      if ($click_icon.hasClass('active')) {
+          hideRightSideBar();
+      } else {
+          showRightSideBar();
+      }
+
+      $click_icon.toggleClass('active');
+      $click_icon.attr('data-ico-now-animating', 'Y');
+
+      setTimeout(function () {
+          $click_icon.attr('data-ico-now-animating', 'N');
+      }, 300);
+    });         
+
+    function hideRightSideBar() {
+      $('#nav').removeClass('active');
+      $('.menu_dim').hide();
+      $('body.main').css({'overflow': 'scroll'});
+    }
+
+    function showRightSideBar() {
+      $('#nav').addClass('active');
+      $('.menu_dim').show();
+      $('body.main').css({'overflow': 'hidden'});
+      // $('body.main').css({'filter': 'blur(5px)'});
+    }
+
+    $('#nav .gnb ul > li').click(function (e) {
+      var $clicked = $(this);
+
+      if ($clicked.hasClass('active')) {
+          $clicked.removeClass('active');
+      } else {
+          $clicked.addClass('active');
+      }
+
+      e.stopPropagation();
+    });
+
+
+    //tap
+    $('.menu_tab .menu_tabin > a').on('click', function() {
+      let idx = $(this).index() ;
+      $('.menu_tab .menu_tabin > a').removeClass('on');
+      $('#main > section#sub_cont > div').removeClass('on');
+      $('.menu_tab .menu_tabin > a:eq('+ idx +')').addClass('on');
+      $('#main > section#sub_cont > div:eq('+ idx +')').addClass('on');
+    })
+
+
+    // 맨위로가기 버튼
+    const btnTop = document.querySelector('#totop');
+    btnTop.addEventListener('click', function() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }, false);
+    
+  </script>
+
+</body>
+
+</html>
